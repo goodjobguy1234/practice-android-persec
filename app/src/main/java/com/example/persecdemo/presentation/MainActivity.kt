@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
                     )
                 )
                 chipStartDate.text = getString(R.string.start_date_format, it.startDate)
-                chipEndDate.text = getString(R.string.end_date_format, it.startDate)
+                chipEndDate.text = getString(R.string.end_date_format, it.endDate)
                 pictureListAdapter.submitList(it.list)
             }.launchIn(lifecycleScope)
 
